@@ -601,12 +601,12 @@
     "1": {
       "events": {},
       "links": {},
-      "address": "0x56a6c3d41e8146c80254B3DBee9a863035096DB8",
-      "transactionHash": "0xe9eafc6b5e5d2d8b7b3279dfcf3c227f8b0fb8c9f7d71c59c04db92c3975ce66"
+      "address": "0x0A9f7171C92beD75DCc466793e311341Eeb524C3",
+      "transactionHash": "0x9452ed3c2275f148005f98597e3b6ac48da72e5c302fd1322d4179eab1e39f20"
     }
   },
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-02-21T08:04:36.146Z",
+  "updatedAt": "2021-02-22T03:04:30.511Z",
   "networkType": "ethereum",
   "devdoc": {
     "details": "Store & retrieve value in a variable",
