@@ -7,25 +7,25 @@ In Linux machine:
 2. runscript `scripts/four_node_network.lua`
 
 ## In VS Code and Postman:
-1. (VS Code) `npm run serve` for the faucet-site
-2. (VS Code) `npm run serve` for the wallet-site
-3. (Postman) Use Keystore API `createUser` to create a new user, make sure to store credentials
-4. (Postman) AVM API `createAddress` to create X-Chain address
-5. (Postman) Export X-Chain to Private key using AVM `exportKey`
-6. (Postman) Import to EVM using `importKey`
-7. (Browser) Add funds to the X-Chain address with the faucet (https://localhost:8080)
-8. (Postman) Add new variables to environment variables (x-chain, avalancheUsername, avalanchePassword, cchainbech32address (C-ending of the X-Chain))
-9. (Postman) Use AVM `export` api call with above variables
+1. (__VS Code__) `npm run serve` for the faucet-site
+2. (__VS Code__) `npm run serve` for the wallet-site
+3. (__Postman__) Use Keystore API `createUser` to create a new user, make sure to store credentials
+4. (__Postman__) AVM API `createAddress` to create X-Chain address
+5. (__Postman__) Export X-Chain to Private key using AVM `exportKey`
+6. (__Postman__) Import to EVM using `importKey`
+7. (__Browser__) Add funds to the X-Chain address with the faucet (https://localhost:8080)
+8. (__Postman__) Add new variables to environment variables (x-chain, avalancheUsername, avalanchePassword, cchainbech32address (C-ending of the X-Chain))
+9. (__Postman__) Use AVM `export` api call with above variables
 10. Go to the command line in truffle project:
-    * (VS Code) `truffle console --network development`
-    * (VS Code) `let account = await web3.eth.personal.newAccount()`
-    * (VS Code) `account`
-    * (VS Code) Copy account number
-    * (VS Code) `await web3.eth.personal.unlockAccount(account)`
-    * (VS Code) `.exit`
-11. (Postman) Paste account number cchainAddress in the environment variables
-12. (Postman) Use EVM `import` with the above CChain address
-13. (VS Code) `truffle migrate --network development`
+    1. (__VS Code__) `truffle console --network development`
+    2. (__VS Code__) `let account = await web3.eth.personal.newAccount()`
+    3. (__VS Code__) `account`
+    4. (__VS Code__) Copy account number
+    5. (__VS Code__) `await web3.eth.personal.unlockAccount(account)`
+    6. (__VS Code__) `.exit`
+11. (__Postman__) Paste account number cchainAddress in the environment variables
+12. (__Postman__) Use EVM `import` with the above CChain address
+13. (__VS Code__) `truffle migrate --network development`
 
 
 ## The Contract should be deployed as long as sufficient funds are in the CChain address
