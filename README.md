@@ -1,5 +1,4 @@
-# local-avalanche-testnet
-# local-avalanche-testnet
+# Local-Avalanche-Testnet
 
 ## Steps to get the Contract Deployed:
 In Linux machine:
