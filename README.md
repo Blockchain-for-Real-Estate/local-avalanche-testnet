@@ -39,6 +39,6 @@ The following should return 1234
 
 
 ## Useful pages to follow if not working
-https://medium.com/avalancheavax/how-to-install-and-run-ava-borealis-971286add0c0
-https://medium.com/avalancheavax/the-ava-platform-tools-pt-1-the-ava-wallet-b2e849b57632
-https://medium.com/avalancheavax/the-ava-platform-tools-pt-2-the-ava-faucet-48f28da57146
+* https://medium.com/avalancheavax/how-to-install-and-run-ava-borealis-971286add0c0
+* https://medium.com/avalancheavax/the-ava-platform-tools-pt-1-the-ava-wallet-b2e849b57632
+* https://medium.com/avalancheavax/the-ava-platform-tools-pt-2-the-ava-faucet-48f28da57146
